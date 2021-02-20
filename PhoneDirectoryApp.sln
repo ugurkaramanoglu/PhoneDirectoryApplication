@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.ReportCor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.ReportAPI", "PhoneDirectoryApp.ReportAPI\PhoneDirectoryApp.ReportAPI.csproj", "{AA4FC094-528D-4731-BDDA-71AFB276E6BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{F451A655-2E59-44AB-86C5-0B86E7FDB05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.UI", "PhoneDirectoryApp.UI\PhoneDirectoryApp.UI.csproj", "{684D49E6-DDAF-4954-88C1-DE56266D7B8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{AA4FC094-528D-4731-BDDA-71AFB276E6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA4FC094-528D-4731-BDDA-71AFB276E6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4FC094-528D-4731-BDDA-71AFB276E6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684D49E6-DDAF-4954-88C1-DE56266D7B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684D49E6-DDAF-4954-88C1-DE56266D7B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684D49E6-DDAF-4954-88C1-DE56266D7B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684D49E6-DDAF-4954-88C1-DE56266D7B8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{D5C718EE-9778-44AE-AD68-4A6EA71791D0} = {A1C5E202-FA3F-47C4-8E82-27D42BB9E4C1}
 		{DE1692CD-5D33-484D-87F6-000E797B0199} = {A1C5E202-FA3F-47C4-8E82-27D42BB9E4C1}
 		{AA4FC094-528D-4731-BDDA-71AFB276E6BF} = {A1C5E202-FA3F-47C4-8E82-27D42BB9E4C1}
+		{684D49E6-DDAF-4954-88C1-DE56266D7B8A} = {F451A655-2E59-44AB-86C5-0B86E7FDB05A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA1011C-EB72-4F92-90CD-DD0029FF3659}
