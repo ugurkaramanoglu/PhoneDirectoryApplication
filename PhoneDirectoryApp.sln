@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserService", "UserService"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.DataAccess", "PhoneDirectoryApp.DataAccess\PhoneDirectoryApp.DataAccess.csproj", "{441685BD-7EA0-4DB1-8D6C-312A28DADD07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.Core", "PhoneDirectoryApp.Core\PhoneDirectoryApp.Core.csproj", "{ACCAF0FB-74F5-415F-9CCD-8DCC24141002}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{441685BD-7EA0-4DB1-8D6C-312A28DADD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441685BD-7EA0-4DB1-8D6C-312A28DADD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441685BD-7EA0-4DB1-8D6C-312A28DADD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCAF0FB-74F5-415F-9CCD-8DCC24141002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCAF0FB-74F5-415F-9CCD-8DCC24141002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCAF0FB-74F5-415F-9CCD-8DCC24141002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCAF0FB-74F5-415F-9CCD-8DCC24141002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CE5FBAD4-AB4C-418D-954A-B2B590CA376F} = {F74AF787-5F89-4099-B55C-9726D6997364}
 		{441685BD-7EA0-4DB1-8D6C-312A28DADD07} = {CE5FBAD4-AB4C-418D-954A-B2B590CA376F}
+		{ACCAF0FB-74F5-415F-9CCD-8DCC24141002} = {CE5FBAD4-AB4C-418D-954A-B2B590CA376F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA1011C-EB72-4F92-90CD-DD0029FF3659}
