@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{F451A655-2E59-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.UI", "PhoneDirectoryApp.UI\PhoneDirectoryApp.UI.csproj", "{684D49E6-DDAF-4954-88C1-DE56266D7B8A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{586B3880-ED1D-4112-BCA1-CF83DC3134B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.APIGateway", "PhoneDirectoryApp.APIGateway\PhoneDirectoryApp.APIGateway.csproj", "{DE24FC23-159D-45CB-AEE1-C5A4F41FB1BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,10 @@ Global
 		{684D49E6-DDAF-4954-88C1-DE56266D7B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{684D49E6-DDAF-4954-88C1-DE56266D7B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{684D49E6-DDAF-4954-88C1-DE56266D7B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE24FC23-159D-45CB-AEE1-C5A4F41FB1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE24FC23-159D-45CB-AEE1-C5A4F41FB1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE24FC23-159D-45CB-AEE1-C5A4F41FB1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE24FC23-159D-45CB-AEE1-C5A4F41FB1BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +81,7 @@ Global
 		{DE1692CD-5D33-484D-87F6-000E797B0199} = {A1C5E202-FA3F-47C4-8E82-27D42BB9E4C1}
 		{AA4FC094-528D-4731-BDDA-71AFB276E6BF} = {A1C5E202-FA3F-47C4-8E82-27D42BB9E4C1}
 		{684D49E6-DDAF-4954-88C1-DE56266D7B8A} = {F451A655-2E59-44AB-86C5-0B86E7FDB05A}
+		{DE24FC23-159D-45CB-AEE1-C5A4F41FB1BC} = {586B3880-ED1D-4112-BCA1-CF83DC3134B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA1011C-EB72-4F92-90CD-DD0029FF3659}
