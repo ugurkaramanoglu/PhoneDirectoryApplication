@@ -1,0 +1,12 @@
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.deps.json
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.runtimeconfig.json
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.runtimeconfig.dev.json
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.dll
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.pdb
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.AssemblyInfo.cs
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.dll
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.pdb
+C:\Users\Asus\source\repos\PhoneDirectoryApp\PhoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\PhoneDirectoryApp.DataAccess.genruntimeconfig.cache
