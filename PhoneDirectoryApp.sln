@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{7F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.MessageContracts", "PhoneDirectoryApp.MessageContracts\PhoneDirectoryApp.MessageContracts.csproj", "{87CECF77-8769-4B91-A94D-123876188354}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneDirectoryApp.Registration", "PhoneDirectoryApp.Registration\PhoneDirectoryApp.Registration.csproj", "{EE225B25-D643-4DDB-B0A5-C049F636C4AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{87CECF77-8769-4B91-A94D-123876188354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87CECF77-8769-4B91-A94D-123876188354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87CECF77-8769-4B91-A94D-123876188354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE225B25-D643-4DDB-B0A5-C049F636C4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE225B25-D643-4DDB-B0A5-C049F636C4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE225B25-D643-4DDB-B0A5-C049F636C4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE225B25-D643-4DDB-B0A5-C049F636C4AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{684D49E6-DDAF-4954-88C1-DE56266D7B8A} = {F451A655-2E59-44AB-86C5-0B86E7FDB05A}
 		{DE24FC23-159D-45CB-AEE1-C5A4F41FB1BC} = {586B3880-ED1D-4112-BCA1-CF83DC3134B8}
 		{87CECF77-8769-4B91-A94D-123876188354} = {7F4D605B-D4E6-4343-A0E6-1DB2741BB8CB}
+		{EE225B25-D643-4DDB-B0A5-C049F636C4AE} = {7F4D605B-D4E6-4343-A0E6-1DB2741BB8CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDA1011C-EB72-4F92-90CD-DD0029FF3659}

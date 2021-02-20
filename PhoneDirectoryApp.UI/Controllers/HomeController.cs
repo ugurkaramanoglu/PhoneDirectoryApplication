@@ -1,8 +1,8 @@
 ﻿using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-//using PhoneDirectoryApp.MessageContracts;
-//using PhoneDirectoryApp.ReportAPI.Events;
+using PhoneDirectoryApp.MessageContracts;
+using PhoneDirectoryApp.ReportAPI.Events;
 using PhoneDirectoryApp.UI.Models;
 using System;
 using System.Collections.Generic;
@@ -28,21 +28,21 @@ namespace PhoneDirectoryApp.UI.Controllers
             return View();
         }
 
-        //public async Task<IActionResult> Report()
-        //{
-        //    var bus = BusConfigurator.ConfigureBus(factory =>
-        //    {
-        //        factory.ReceiveEndpoint(RabbitMqConstants.NotificationServiceQueue, endpoint =>
-        //        {
-        //            endpoint.Consumer<ReportNotificationEventConsumer>();
-        //        });
-        //    });
+        public async Task<IActionResult> Report()
+        {
+            var bus = BusConfigurator.ConfigureBus(factory =>
+            {
+                factory.ReceiveEndpoint(RabbitMqConstants.NotificationServiceQueue, endpoint =>
+                {
+                    endpoint.Consumer<ReportNotificationEventConsumer>();
+                });
+            });
 
-        //    await bus.StartAsync();
+            await bus.StartAsync();
 
-        //    return View();
-           
-        //}
+            return View();
+
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

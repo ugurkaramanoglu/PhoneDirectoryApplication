@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PhoneDirectoryApp.MessageContracts\PhoneDirectoryApp.MessageContracts.csproj" />
     <ProjectReference Include="..\PhoneDirectoryApp.ReportCore\PhoneDirectoryApp.ReportCore.csproj" />
   </ItemGroup>
 

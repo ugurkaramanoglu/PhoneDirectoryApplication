@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-//using PhoneDirectoryApp.MessageContracts;
-//using PhoneDirectoryApp.MessageContracts.Commands;
-//using PhoneDirectoryApp.MessageContracts.Models;
+using PhoneDirectoryApp.MessageContracts;
+using PhoneDirectoryApp.MessageContracts.Commands;
+using PhoneDirectoryApp.MessageContracts.Models;
 using PhoneDirectoryApp.ReportCore.ReportDTO;
 using PhoneDirectoryApp.ReportCore.ReportManager;
 using System;
@@ -23,29 +23,29 @@ namespace PhoneDirectoryApp.ReportAPI.Controllers
             _reportService = reportService;
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> PostReport(ReportDto reportDto)
-        //{
-        //    Guid ID = Guid.NewGuid();
-        //    reportDto.ID = ID;
-        //    reportDto.CreatedDate = DateTime.Now;
-        //    reportDto.Location = reportDto.Location;
-        //    reportDto.ReportName = reportDto.ReportName;
+        [HttpPost]
+        public async Task<IActionResult> PostReport(ReportDto reportDto)
+        {
+            Guid ID = Guid.NewGuid();
+            reportDto.ID = ID;
+            reportDto.CreatedDate = DateTime.Now;
+            reportDto.Location = reportDto.Location;
+            reportDto.ReportName = reportDto.ReportName;
 
-        //    _reportService.ReportPost(reportDto);
+            _reportService.ReportPost(reportDto);
 
 
-        //    Ürün karşılanır.
-        //    Gerekli ön çalışmalar yapılır.
+            //Ürün karşılanır.
+            //Gerekli ön çalışmalar yapılır.
 
-        //    var bus = BusConfigurator.ConfigureBus();
-        //    var sendToUri = new Uri($"{RabbitMqConstants.RabbitMqUri}/{RabbitMqConstants.RegistrationServiceQueue}");
-        //    var endPoint = await bus.GetSendEndpoint(sendToUri);
-        //    await endPoint.Send<IReportRegistrationCommand>(reportDto);
-        //    string message = "Rapor talebiniz başarılı bir şekilde tarafımıza ulaşmıştır. ";
-        //    return Ok(message);
-            
-        //}
+            var bus = BusConfigurator.ConfigureBus();
+            var sendToUri = new Uri($"{RabbitMqConstants.RabbitMqUri}/{RabbitMqConstants.RegistrationServiceQueue}");
+            var endPoint = await bus.GetSendEndpoint(sendToUri);
+            await endPoint.Send<IReportRegistrationCommand>(reportDto);
+            string message = "Rapor talebiniz başarılı bir şekilde tarafımıza ulaşmıştır. ";
+            return Ok(message);
+
+        }
 
 
         public void RemoveReport(ReportDto reportDTO)
