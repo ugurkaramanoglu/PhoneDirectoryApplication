@@ -63,5 +63,5 @@ The following technologies were used while developing the project.
 ## Project developer
 
 Uğur Karamanoğlu - 
-BilgeAdam Bilişim Teknoloji Grubu Junior Developer
+BilgeAdam Bilişim Teknoloji Grubu Software Developer
 
