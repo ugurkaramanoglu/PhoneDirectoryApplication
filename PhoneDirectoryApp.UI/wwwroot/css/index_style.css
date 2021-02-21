@@ -1,0 +1,71 @@
+body
+{
+    color: aliceblue;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../images/backgrounds-blank-blue-953214.jpg);
+}
+
+
+.jum
+{
+    padding: 30px 30px;
+    padding-bottom: 220px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.3);
+   
+}
+
+.tableh1 th
+{
+    width: 30%;
+}
+
+.icon
+{
+    position: absolute;
+    top: 18px;
+    left: 88%;
+    font-size: 20px;
+    
+    
+}
+
+.alert
+{
+    display: none;
+}
+
+.btn1
+{
+    margin-bottom: 20px;
+}
+
+.dataTables_filter label {
+    color: white !important;
+}
+#tabloContact_filter label {
+    color : black !important;
+}
+#tabloContact_length label {
+    color: black !important;
+}
+.dataTables_length label {
+    color: white !important;
+}
+.dataTables_info {
+    color: white !important;
+}
+#tablo_previous {
+    color: white !important;
+}
+#tablo_next {
+    color: white !important;
+}
+#tabloReport_previous {
+    color: white !important;
+}
+#tabloReport_next {
+    color: white !important;
+}
